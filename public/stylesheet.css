@@ -1,0 +1,158 @@
+.scene {
+	width: 90px;
+	height: 100px;
+}
+
+.box {
+	width: 100%;
+	height:100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-out;
+	transform-origin: 0 0;
+}
+
+.scene:hover .box {
+	transform: rotateY(-90deg);
+	cursor: pointer;
+}
+
+.face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-origin: 0 0;
+	background-color: grey;
+	color: yellow;
+	font-size: 0.8rem;
+}
+
+.front {
+	transform: rotateY(90deg);
+	left: 80px;
+	background-color: #fcda05;
+	color: #393e46;
+	font-size: 0.8rem;
+}
+
+.scene_about {
+	width: 90px;
+	height: 100px;
+}
+
+
+.box_about {
+	width: 100%;
+	height:100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-out;
+	transform-origin: 0 0;
+}
+
+.scene_about:hover .box_about {
+	transform: rotateY(-90deg);
+	cursor: pointer;
+}
+
+.face_about {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-origin: 0 0;
+	background-color: grey;
+	color: yellow;
+	font-size: 0.8rem;
+}
+
+.front_about {
+	transform: rotateY(90deg);
+	left: 80px;
+	background-color: #fcda05;
+	color: #393e46;
+	font-size: 0.8rem;
+}
+
+.scene_projects {
+	width: 90px;
+	height: 100px;
+}
+
+
+.box_projects {
+	width: 100%;
+	height:100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-out;
+	transform-origin: 0 0;
+}
+
+.scene_projects:hover .box_projects {
+	transform: rotateY(-90deg);
+	cursor: pointer;
+}
+
+.face_projects {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-origin: 0 0;
+	background-color: grey;
+	color: yellow;
+	font-size: 0.8rem;
+}
+
+.front_projects {
+	transform: rotateY(90deg);
+	left: 80px;
+	background-color: #fcda05;
+	color: #393e46;
+	font-size: 0.8rem;
+}
+
+.scene_contact {
+	width: 90px;
+	height: 100px;
+}
+
+
+.box_contact {
+	width: 100%;
+	height:100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease-out;
+	transform-origin: 0 0;
+}
+
+.scene_contact:hover .box_contact {
+	transform: rotateY(-90deg);
+	cursor: pointer;
+}
+
+.face_contact {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-origin: 0 0;
+	background-color: grey;
+	color: yellow;
+	font-size: 0.8rem;
+}
+
+.front_contact {
+	transform: rotateY(90deg);
+	left: 80px;
+	background-color: #fcda05;
+	color: #393e46;
+	font-size: 0.8rem;
+}
+
+.nav-icon {
+	margin: 37.6 0 0 0;
+	color: #f1c40f;
+	font-size: 25px;
+
+}
+
+.right {
+text-align: center;
+
+}
