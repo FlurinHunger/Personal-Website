@@ -14,7 +14,6 @@ body {
 	transition: all 0.5s ease-out;
 	transform-origin: 0 0;
 }
-
 .nav-element:hover .box {
 	transform: rotateY(-90deg);
 	cursor: pointer;
@@ -25,16 +24,17 @@ body {
 	width: 100%;
 	height: 100%;
 	transform-origin: 0 0;
-	background-color: #2f3136;
-	color: #f1c40f;
-	font-size: 0.8rem;
 	text-align: center;
 }
 
-.nav-icon {
-	margin: 37.6 0 0 0;
-	color: #f1c40f;
+.nav-element .box .top {
+	transform: rotateY(0deg);
+	background: #2f3136;
 	font-size: 25px;
+	color: #f1c40f;
+}
+.nav-element .box .top i.nav-icon {
+	margin: 37.6px 0 0 0;
 }
 
 .nav-element .box .flip {
