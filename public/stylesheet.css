@@ -65,6 +65,7 @@ justify-content: space-evenly;
 	text-align: center;
 	color: #e41749;
 	font-size: 20px;
+	animation: blink-reverse 1s infinite;
 }
 
 .title-sign {
@@ -76,7 +77,12 @@ justify-content: space-evenly;
 	animation: blink 1s infinite;
 }
 
-@keyframe blink {
+@keyframes blink {
 	0% {opacity: 1}
  	50% {opacity: 0.7}
+}
+
+@keyframes blink-reverse {
+	0% {opacity: 0.7}
+ 	50% {opacity: 1}
 }
