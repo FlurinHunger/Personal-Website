@@ -61,28 +61,29 @@ justify-content: space-evenly;
 
 
 .title-sign >h1 {
-	text-shadow: 0 0 10px #fff, 0 0 60px #e41749, 0 0 30px #e41749;
+	text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
 	text-align: center;
-	color: #e41749;
-	font-size: 20px;
-	animation: blink-reverse 1s infinite;
+	color: white;
+	font-size: 16px;
+	animation-delay: 1s;
+	animation: blink 6s alternate-reverse infinite;
+	margin-top: 27px;
 }
 
 .title-sign {
+	position: absolute;
+	top: 10px;
+	left: 10px;
 	width: 90px;
 	height: 90px;
 	border: 4px solid #fff;
 	border-radius: 50%;
 	box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
-	animation: blink 1s infinite;
+	animation: blink 6s alternate infinite;
+	animation-delay: 3s;
 }
 
 @keyframes blink {
-	0% {opacity: 1}
- 	50% {opacity: 0.7}
-}
-
-@keyframes blink-reverse {
-	0% {opacity: 0.7}
- 	50% {opacity: 1}
+	0%, 2%, 4%, 6%, 30%, 32%, 75%, 77%, 100% {opacity: 1}
+		3%, 5%, 31%, 76% {opacity: 0.7}
 }
