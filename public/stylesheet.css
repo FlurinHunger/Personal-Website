@@ -4,6 +4,7 @@ body {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
+	background-color:#2f3136;
 }
 
 .nav-element {
@@ -58,50 +59,24 @@ margin-top: 20vh;
 justify-content: space-evenly;
 }
 
-.container > div {
-	width: calc(50vw/3);
-	height: 60vh;
-	display: flex;
-	flex-grow: 1;
-	justify-content: center;
-	align-content: center;
-	transition: all 300ms ease-in-out;
-}
-
-.container > div > h1 {
-	transform: rotate(-90deg);
-	transition: all 300ms ease-in-out;
-}
-
-.one {background-color: #1fab89;}
-.two {background-color: #ff8080;}
-.three {background-color: #ffba92;}
-
-.container > div:hover {
-	flex-grow: 4;
-}
-
-.container >div:hover h1 {
-	transform: rotate(0deg);
-	transform: scale(1.5);
-	color: black;
-}
 
 .title-sign >h1 {
 	text-shadow: 0 0 10px #fff, 0 0 60px #e41749, 0 0 30px #e41749;
-	animation-delay: 1s;
-	animation: blink 6s alternate-reverse infinite;
+	text-align: center;
+	color: #e41749;
+	font-size: 20px;
 }
 
 .title-sign {
-	width: 250px;
-	height: 250px;
-	border: 8px solid;
+	width: 90px;
+	height: 90px;
+	border: 4px solid #fff;
 	border-radius: 50%;
 	box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
-	animation: blink 6s alternate infinite;
+	animation: blink 1s infinite;
 }
 
 @keyframe blink {
-	0%, 2%, 6%, 30%, 32%, 75%, 77%, 100% {opacity: 0.7}
+	0% {opacity: 1}
+ 	50% {opacity: 0.7}
 }
