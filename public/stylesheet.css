@@ -86,3 +86,22 @@ justify-content: space-evenly;
 	transform: scale(1.5);
 	color: black;
 }
+
+.title-sign >h1 {
+	text-shadow: 0 0 10px #fff, 0 0 60px #e41749, 0 0 30px #e41749;
+	animation-delay: 1s;
+	animation: blink 6s alternate-reverse infinite;
+}
+
+.title-sign {
+	width: 250px;
+	height: 250px;
+	border: 8px solid;
+	border-radius: 50%;
+	box-shadow: 0 0 50px #0028ff, inset 0 0 50px #0028ff;
+	animation: blink 6s alternate infinite;
+}
+
+@keyframe blink {
+	0%, 2%, 6%, 30%, 32%, 75%, 77%, 100% {opacity: 0.7}
+}
