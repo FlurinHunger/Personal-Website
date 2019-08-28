@@ -4,7 +4,7 @@ body {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
-	background-color:#2f3136;
+	background-color:black;
 }
 
 .nav-element {
@@ -64,7 +64,7 @@ justify-content: space-evenly;
 	text-shadow: 0 0 10px white, 0 0 60px #e41749, 0 0 30px #e41749;
 	text-align: center;
 	color: white;
-	font-size: 16px;
+	font-size: 15px;
 	animation-delay: 1s;
 	animation: blink 6s alternate-reverse infinite;
 	margin-top: 27px;
