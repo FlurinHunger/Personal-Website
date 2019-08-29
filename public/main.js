@@ -1,10 +1,6 @@
-function fetch(url) {
-  var request = new XMLHttpRequest();
-  request.open("GET", url, true);
-  request.send("request");
-  request.onreadystatechange = function () {
-    if(request.readyState === 4 && request.status === 200) {
-      return request.responseText;
-    }
-  }
-}
+$.get("https://flurin.ml/component/head.html", function(data) {
+  $("head").append(data);
+});
+$.get("https://flurin.ml/component/header.html", function(data) {
+  $("header").append(data);
+});
