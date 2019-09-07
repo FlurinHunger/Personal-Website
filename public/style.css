@@ -26,4 +26,15 @@ body {
 .page-header {
   background: url("assets/background.jpg");
   height: 100vh;
+  color: #fff;
+}
+.page-header .container.info {
+  text-align: center;
+  padding-top: 45vh;
+}
+.header-info {
+  width: 100%;
+}
+.cd-words-wrapper .is-hidden {
+  display: none;
 }
