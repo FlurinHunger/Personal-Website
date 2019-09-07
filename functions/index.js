@@ -12,3 +12,9 @@ exports.test = functions.https.onRequest((request, response) => {
     message: 'This is working!' + ip
   });
 });
+
+exports.test2 = functions.https.onRequest((request, response) => {
+  response.status(200).json({
+    message: 'This is working!' + ip
+  });
+});
