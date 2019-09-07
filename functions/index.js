@@ -6,15 +6,3 @@ const functions = require('firebase-functions');
 // exports.helloWorld = functions.https.onRequest((request, response) => {
 //  response.send("Hello from Firebase!");
 // });
-exports.test = functions.https.onRequest((request, response) => {
-  var ip = request.headers['x-forwarded-for'] || request.connection.remoteAddress;
-  response.status(200).json({
-    message: 'This is working!' + ip
-  });
-});
-
-exports.test2 = functions.https.onRequest((request, response) => {
-  response.status(200).json({
-    message: 'This is working!' + ip
-  });
-});
