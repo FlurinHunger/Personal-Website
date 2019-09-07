@@ -35,6 +35,13 @@ body {
 .header-info {
   width: 100%;
 }
-.cd-words-wrapper .is-hidden {
-  display: none;
+.header-info h2 {
+  font-weight: 200;
+  font-size: 40px;
+}
+.header-info h1 {
+  font-size: 70px;
+}
+.header-info h1 .cd-words-wrapper {
+  font-weight: 900;
 }
