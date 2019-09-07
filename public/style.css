@@ -22,6 +22,9 @@ body {
   font-weight: 600;
   text-decoration: none;
 }
+.nav-link.active {
+  color: #007bff;
+}
 
 .page-header {
   background: url("assets/background.jpg");
@@ -138,4 +141,39 @@ body {
   color: #fff;
   transition: color 0.4s linear;
   background: #007bff;
+}
+
+
+.arrow {
+  position: absolute;
+  bottom: 5vh;
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  z-index: 8;
+}
+.arrow a {color: #fff;}
+.arrow i {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+.arrow i:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  border-radius: 50%;
+  z-index: -1;
+  transition: all 0.2s;
+}
+.arrow i:hover:after {
+  transform: scale(1.2);
+  opacity: 0;
+  transition: all 0.5s;
 }
