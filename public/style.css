@@ -42,7 +42,7 @@ body {
 .page-header {
   background: url("assets/background.jpg");
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: #fff;
 }
 .page-header .container.info {
@@ -188,7 +188,7 @@ body {
 
 
 .section-about {
-  height: 100vh;
+  min-height: 100vh;
   padding: 100px;
 }
 
@@ -233,7 +233,7 @@ body {
 
 
 .section-contact {
-  height: 100vh;
+  min-height: 100vh;
   padding: 100px;
   background: url("assets/backgroundContact.jpg");
   background-attachment: fixed;
