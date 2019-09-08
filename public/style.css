@@ -50,8 +50,6 @@ body {
 }
 
 
-
-
 /* Buttons */
 * {
   box-sizing: border-box;
@@ -108,6 +106,7 @@ body {
   overflow: hidden;
 }
 
+
 /* Wave effect */
 .social-button a .back:after {
   content: '';
@@ -124,14 +123,9 @@ body {
 .social-button a:hover .back:after {
   transform: rotate(6deg) translate(100px, -18px);
 }
-
-
-
 .social-button a:hover {
   transform: translateZ(-24px) rotateX(-90deg);
 }
-
-
 .social-button a:hover .front {
   opacity: 0;
   transition: all 0.8s ease;
