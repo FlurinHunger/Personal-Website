@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="description" content="Flurin Hunger's personal website.">
+    <meta name="keywords" content="Flurin Hunger, Flurin, Hunger, Website, xwyfluflyflu">
     <link rel="icon" href="https://flurin.ml/favicon.ico">
     <title>Flurin Hunger</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
@@ -21,13 +22,16 @@
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item">
-			        <a class="nav-link active" href="#" data-scroll-nav="0">Home</a>
+			        <a class="nav-link active" href="" data-scroll-nav="0">Home</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="1">About</a>
+			        <a class="nav-link" href="" data-scroll-nav="1">About</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="#" data-scroll-nav="2">Portfolio</a>
+			        <a class="nav-link" href="" data-scroll-nav="2">Portfolio</a>
+			      </li>
+            <li class="nav-item">
+			        <a class="nav-link" href="" data-scroll-nav="3">Contact me</a>
 			      </li>
 			    </ul>
 			  </div>
@@ -35,7 +39,7 @@
 		</nav>
 
 
-    <header class="page-header">
+    <header class="page-header" data-scroll-index="0">
       <div class="container info">
         <div class="row">
           <div class="header-info">
@@ -75,15 +79,58 @@
       </div>
 
       <div class="arrow">
-				<a href="#" data-scroll-nav="1" class="">
+				<a href="" data-scroll-goto="1">
 					<i class="fas fa-chevron-down"></i>
 				</a>
 			</div>
     </header>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <section class="section-about" data-scroll-index="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <h4 class="title title-left">I'm a learning Developer</h4>
+            <p>Hello! I am <b>Flurin Hunger</b>! I am 15 years old and I live in Zurich, Switzerland. I am currently doing my apprenticeship as a computer scientist at <a href="https://www.helsana.ch" target="_blank">Helsana</a>.</p>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="title title-left spotify">My Spotify playlist</h6>
+            <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX9RQymnSy9zE" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-contact" data-scroll-index="3">
+      <div class="container">
+        <div class="row">
+          <div class="section-head full-width">
+            <h4 class="title">Contact Me</h4>
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <p><input id="subject" type="text" placeholder="type your subject here"
+          class="form-control"></p>
+      <p><input id="message" type="text" placeholder="type your message here"
+          class="form-control"></p>
+      <p><a id="mail-link" class="btn btn-primary">Create email</a></p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="scrollIt.js" charset="utf-8"></script>
     <script src="index.js" charset="utf-8"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147379021-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-147379021-1');
+    </script>
   </body>
 </html>
