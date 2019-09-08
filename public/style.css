@@ -3,6 +3,10 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 
 .navbar {
   position: fixed;
@@ -358,6 +362,14 @@ body {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
+}
+.valign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .section-contact {
