@@ -96,14 +96,13 @@ $(window).on("load",function (){
 
 
 function loadEvents() {
-        var mailString;
-        function updateMailString() {
-            mailString = '?subject=' + encodeURIComponent($('#subject').val())
-                + '&body=' + encodeURIComponent($('#message').val());
-            $('#mail-link').attr('href',  'mailto:person@email.com' + mailString);
-        }
-        $( "#subject" ).focusout(function() { updateMailString(); });
-        $( "#message" ).focusout(function() { updateMailString(); });
-        updateMailString();
-    }
-    loadEvents();
+  var mailString;
+  function updateMailString() {
+    mailString = '?subject=' + encodeURIComponent($('#form_subject').val()) + '&body=' + encodeURIComponent($('#form_message').val());
+    $('#mail-link').attr('href',  'mailto:hunger@flurin.ml' + mailString);
+  }
+  $( "#form_subject" ).focusout(function() { updateMailString(); });
+  $( "#form_message" ).focusout(function() { updateMailString(); });
+  updateMailString();
+}
+loadEvents();

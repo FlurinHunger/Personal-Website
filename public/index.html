@@ -50,18 +50,17 @@
             </h1>
             <div class="socials">
 
-
               <div class="social-button" style="left: calc(50% - 125px);">
-                <a href="mailto:hunger@flurin.ml">
-                  <div class="front"><i class="far fa-envelope"></i></div>
-                  <div class="back"><i class="far fa-envelope"></i></div>
+                <a href="https://github.com/FlurinHunger" target="_blank" rel="noreferrer">
+                  <div class="front"><i class="fab fa-github-alt"></i></div>
+                  <div class="back"><i class="fab fa-github-alt"></i></div>
                 </a>
               </div>
 
               <div class="social-button">
-                <a href="https://github.com/FlurinHunger" target="_blank" rel="noreferrer">
-                  <div class="front"><i class="fab fa-github-alt"></i></div>
-                  <div class="back"><i class="fab fa-github-alt"></i></div>
+                <a href="">
+                  <div class="front"><i class="fas fa-question"></i></div>
+                  <div class="back"><i class="fas fa-question"></i></div>
                 </a>
               </div>
 
@@ -101,7 +100,7 @@
       </div>
     </section>
 
-    <section class="section-contact" data-scroll-index="3">
+    <section class="section-contact" data-scroll-index="3" data-overlay-dark="8">
       <div class="container">
         <div class="row">
           <div class="section-head full-width">
@@ -109,15 +108,39 @@
           </div>
 
 
+          <form class="form full-width" novalidate="true" autocomplete="off">
+            <div class="messages"></div>
+            <div class="controls">
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input id="form_subject" type="text" name="subject" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea id="form_message" name="message" placeholder="Your Message *" rows="4" required="required"></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <span class="buton buton-lg">
+                      <a id="mail-link" class="btn btn-primary">Send message</a>
+										</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-
-
-      <p><input id="subject" type="text" placeholder="type your subject here"
-          class="form-control"></p>
-      <p><input id="message" type="text" placeholder="type your message here"
-          class="form-control"></p>
-      <p><a id="mail-link" class="btn btn-primary">Create email</a></p>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
