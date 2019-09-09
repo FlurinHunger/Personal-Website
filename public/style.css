@@ -286,6 +286,7 @@ img {
 
 .section-portfolio {
   min-height: 100vh;
+  max-height: 100vh;
   padding: 100px;
   overflow: hidden;
 }
