@@ -338,6 +338,7 @@ img {
   bottom: 5px;
   background: transparent;
   z-index: 2;
+  cursor:pointer;
 }
 .section-portfolio .item-img-overlay:before, .section-portfolio .item-img-overlay:after {
   content: '';
