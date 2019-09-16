@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background: url("bg.jpg");
+  min-height: 100vh;
+}
+
+.container1{
+  width: 100%;
+  height: 100%;
+}
+
+.container1 h1{
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1 h1 span{
+  display: block;
+  background: #2ecc71;
+  padding: 0 10px;
+}
+
+.menu{
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  overflow: hidden;
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu span{
+  height: 3px;
+  display: block;
+  margin: 6px;
+  background: white;
+  transition: 0.4s all;
+}
+
+.s1, .s3{
+  width: 100%;
+}
+
+.s2{
+  width: 60%;
+}
+
+.menu:hover > .s2{
+  width: 100%;
+}
+
+
+.container{
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.txtb{
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+  color: white;
+}
+
+h3{
+  margin: 10px 0;
+}
+
+.task{
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i{
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task{
+  background: rgba(255,255,255,.5);
+  color: #fff;
+}
