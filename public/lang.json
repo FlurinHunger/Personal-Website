@@ -93,15 +93,15 @@
   },
   "es": {
     "NAVIGATION_HOME": "Home",
-    "NAVIGATION_ABOUT": "About",
-    "NAVIGATION_PORTFOLIO": "Portfolio",
-    "NAVIGATION_CONTACT": "Contact",
-    "HEAD_INFO": "I love to code",
-    "HEAD_INTRO": "I'm",
-    "TYPED_PROFESSION": "a Developer",
+    "NAVIGATION_ABOUT": "sobre mí",
+    "NAVIGATION_PORTFOLIO": "Cartera",
+    "NAVIGATION_CONTACT": "Contacto",
+    "HEAD_INFO": "Me gusta programar",
+    "HEAD_INTRO": "Soy",
+    "TYPED_PROFESSION": "Un programador",
 
-    "ABOUT_TITLE": "I'm a learning Developer",
-    "ABOUT_INTRO": "Hello, I am <b>Flurin Hunger</b>! I am 15 years old and I live in Zurich, Switzerland. I am currently doing my apprenticeship as a computer scientist at <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_TITLE": "Soy un programador aprendiz",
+    "ABOUT_INTRO": "Hola, soy <b>Flurin Hunger</b>! Tengo 15 años y yo vivo en Zurich, Suiza. Por el momento, haré una educación as a computer scientist at <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
     "ABOUT_SKILLS": "My Skills",
     "ABOUT_SPOTIFY": "My Spotify playlist",
 
@@ -112,6 +112,6 @@
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Coming soon",
 
     "CONTACT_TITLE": "Contact me",
-    "CONTACT_SEND": "Send message"
+    "CONTACT_SEND": "enviar"
   }
 }
