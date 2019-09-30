@@ -50,7 +50,7 @@
     "NAVIGATION_ABOUT": "About",
     "NAVIGATION_PORTFOLIO": "Portafoglio",
     "NAVIGATION_CONTACT": "Contatto",
-    "HEAD_INFO": "Adoro programmare",
+    "HEAD_INFO": "Adoro Programmare",
     "HEAD_INTRO": "Sono",
     "TYPED_PROFESSION": "Sono uno Sviluppatore",
 
@@ -98,20 +98,20 @@
     "NAVIGATION_CONTACT": "Contacto",
     "HEAD_INFO": "Me gusta programar",
     "HEAD_INTRO": "Soy",
-    "TYPED_PROFESSION": "Un programador",
+    "TYPED_PROFESSION": "Un Programador",
 
-    "ABOUT_TITLE": "Soy un programador aprendiz",
-    "ABOUT_INTRO": "Hola, soy <b>Flurin Hunger</b>! Tengo 15 años y yo vivo en Zurich, Suiza. Por el momento, haré una educación as a computer scientist at <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
-    "ABOUT_SKILLS": "My Skills",
-    "ABOUT_SPOTIFY": "My Spotify playlist",
+    "ABOUT_TITLE": "Soy un Programador aprendiz",
+    "ABOUT_INTRO": "Hola, soy <b>Flurin Hunger</b>! Tengo 15 años y yo vivo en Zurich, Suiza. Por el momento, haré una educación en la profesión informático en <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_SKILLS": "Mi Competencia",
+    "ABOUT_SPOTIFY": "Mi lista de reproducción de Spotify",
 
     "PORTFOLIO_TITLE": "My Portfolio",
-    "PORTFOLIO_PROJECT1_NAME": "Project 1",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Coming soon",
-    "PORTFOLIO_PROJECT2_NAME": "Project 2",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "Coming soon",
+    "PORTFOLIO_PROJECT1_NAME": "Proyecto 1",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "próximamente",
+    "PORTFOLIO_PROJECT2_NAME": "Proyecto 2",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "próximamente",
 
-    "CONTACT_TITLE": "Contact me",
-    "CONTACT_SEND": "enviar"
+    "CONTACT_TITLE": "Contáctame",
+    "CONTACT_SEND": "Enviar"
   }
 }
