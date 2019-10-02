@@ -1,6 +1,8 @@
 (function() {
   "use strict";
 
+  var integer = [];
+
   // Shortcut to get elements
   var el = function(element) {
     if (element.charAt(0) === "#") { // If passed an ID...
@@ -75,7 +77,7 @@
     // If NaN or Infinity returned
     if (!isFinite(resultNum)) {
       if (isNaN(resultNum)) { // If result is not a number; set off by, eg, double-clicking operators
-        resultNum = "You broke it!";
+        resultNum = "Well  done, You broke it!";
       } else { // If result is infinity, set off by dividing by zero
         resultNum = "Look at what you've done";
         el('#calculator').classList.add("broken"); // Break calculator
@@ -83,7 +85,7 @@
       }
     }
 
-    // Display result, finally!
+    // Display result
     viewer.innerHTML = resultNum;
     equals.setAttribute("data-result", resultNum);
 
