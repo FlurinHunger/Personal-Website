@@ -25,7 +25,7 @@
     "CALCULATOR_WARNING": "Don't divide by zero",
     "CALCULATOR_RESET": "Reset Universe?",
     "CALCULATOR_TITLE": "Calculator",
-    "CALCULATOR_BROKE": "Well done, You broke it!",
+    "CALCULATOR_BROKE": "You broke it!",
     "CALCULATOR_BROKE2": "Look at what you've done"
   },
   "de": {
@@ -54,7 +54,7 @@
     "CALCULATOR_WARNING": "Rechne nicht durch 0",
     "CALCULATOR_RESET": "Zurücksetzen?",
     "CALCULATOR_TITLE": "Rechner",
-    "CALCULATOR_BROKE": "Gut gemacht, Du hast es kaputt gemacht!",
+    "CALCULATOR_BROKE": "Du hast es überlastet!",
     "CALCULATOR_BROKE2": "Schau dir an was du getan hast!"
   },
   "it": {
@@ -83,7 +83,7 @@
     "CALCULATOR_WARNING": "Non dividere per zero",
     "CALCULATOR_RESET": "Resetta universo?",
     "CALCULATOR_TITLE": "Calcolatrice",
-    "CALCULATOR_BROKE": "Ben fatto, l'hai rotto!",
+    "CALCULATOR_BROKE": "L'hai rotto!",
     "CALCULATOR_BROKE2": "Guarda cosa hai fatto!"
   },
   "fr": {
@@ -112,7 +112,7 @@
     "CALCULATOR_WARNING": "Ne pas diviser par zéro",
     "CALCULATOR_RESET": "Réinitialiser l'univers",
     "CALCULATOR_TITLE": "Calculatrice",
-    "CALCULATOR_BROKE": "Bien fait, tu as cassé!",
+    "CALCULATOR_BROKE": "Tu as cassé!",
     "CALCULATOR_BROKE2": "Regardez ce que vous avez fait"
   },
   "es": {
@@ -139,9 +139,9 @@
     "CONTACT_SEND": "Enviar",
 
     "CALCULATOR_WARNING": "No dividir por cero",
-    "CALCULATOR_RESET": "¿Restablecer universo?",
-    "CALCULATOR_TITLE": "Calculadora",
-    "CALCULATOR_BROKE": "¡Bien hecho, lo rompiste!",
-    "CALCULATOR_BROKE2": "Mira lo que has hecho"
+    "CALCULATOR_RESET": "Restablecer universo?",
+    "CALCULATOR_TITLE": "Calculadora",
+    "CALCULATOR_BROKE": "Lo rompiste!",
+    "CALCULATOR_BROKE2": "Mira lo que has hecho!"
   }
 }
