@@ -28,7 +28,9 @@ h2 {
   color: #cccccc;
 }
 
-
+h2 >a {
+  color: #cccccc;
+}
 
 /* STRUCTURE */
 
