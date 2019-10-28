@@ -114,10 +114,10 @@ img {
   -webkit-animation: blob 12s linear infinite alternate;
           animation: blob 12s linear infinite alternate;
 }
-.social__link.link--twitter::before {
+.social__link.link--github::before {
   background: linear-gradient(165deg, #800080, #000000);
 }
-.social__link.link--facebook::before {
+.social__link.link--unknown::before {
   background: linear-gradient(165deg, #3c5a99, #dfe3ee);
 }
 .social__link.link--instagram::before {
