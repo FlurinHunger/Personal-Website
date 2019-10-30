@@ -56,6 +56,11 @@ img {
 .header-info {
   width: 100%;
 }
+@media (max-width: 550px) {
+  .header-info {
+    transform: scale(0.6);
+  }
+}
 .header-info h2 {
   font-weight: 200;
   font-size: 40px;
@@ -85,6 +90,9 @@ img {
 
 .social-links {
   display: flex;
+}
+.social-links {
+  padding-left: 0px;
 }
 .social__link {
   flex: 1;
