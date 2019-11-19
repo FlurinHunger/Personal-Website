@@ -26,7 +26,10 @@
     "CALCULATOR_RESET": "Reset Universe?",
     "CALCULATOR_TITLE": "Calculator",
     "CALCULATOR_BROKE": "You broke it!",
-    "CALCULATOR_BROKE2": "Look at what you've done"
+    "CALCULATOR_BROKE2": "Look at what you've done",
+
+    "COMINGSOON_TITLE": "Coming Soon",
+    "COMINGSOON_TITLE2": "Stay tuned"
   },
   "de": {
     "NAVIGATION_HOME": "Home",
@@ -55,7 +58,10 @@
     "CALCULATOR_RESET": "Zurücksetzen?",
     "CALCULATOR_TITLE": "Rechner",
     "CALCULATOR_BROKE": "Du hast es überlastet!",
-    "CALCULATOR_BROKE2": "Schau dir an was du getan hast!"
+    "CALCULATOR_BROKE2": "Schau dir an was du getan hast!",
+
+    "COMINGSOON_TITLE": "Bald verfügbar",
+    "COMINGSOON_TITLE2": "Bleib dran!"
   },
   "it": {
     "NAVIGATION_HOME": "Home",
@@ -84,7 +90,10 @@
     "CALCULATOR_RESET": "Resetta universo?",
     "CALCULATOR_TITLE": "Calcolatrice",
     "CALCULATOR_BROKE": "L'hai rotto!",
-    "CALCULATOR_BROKE2": "Guarda cosa hai fatto!"
+    "CALCULATOR_BROKE2": "Guarda cosa hai fatto!",
+
+    "COMINGSOON_TITLE": "Prossimamente",
+    "COMINGSOON_TITLE2": "Resta sintonizzato"
   },
   "fr": {
     "NAVIGATION_HOME": "Home",
@@ -113,7 +122,10 @@
     "CALCULATOR_RESET": "Réinitialiser l'univers",
     "CALCULATOR_TITLE": "Calculatrice",
     "CALCULATOR_BROKE": "Tu as cassé!",
-    "CALCULATOR_BROKE2": "Regardez ce que vous avez fait"
+    "CALCULATOR_BROKE2": "Regardez ce que vous avez fait",
+
+    "COMINGSOON_TITLE": "Bientôt disponible",
+    "COMINGSOON_TITLE2": "Restez à l'écoute"
   },
   "es": {
     "NAVIGATION_HOME": "Home",
@@ -142,6 +154,9 @@
     "CALCULATOR_RESET": "Restablecer universo?",
     "CALCULATOR_TITLE": "Calculadora",
     "CALCULATOR_BROKE": "Lo rompiste!",
-    "CALCULATOR_BROKE2": "Mira lo que has hecho!"
+    "CALCULATOR_BROKE2": "Mira lo que has hecho!",
+
+    "COMINGSOON_TITLE": "Próximamente",
+    "COMINGSOON_TITLE2": "Estén atentos"
   }
 }
