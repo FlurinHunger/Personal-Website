@@ -29,7 +29,11 @@
     "CALCULATOR_BROKE2": "Look at what you've done",
 
     "COMINGSOON_TITLE": "Coming Soon",
-    "COMINGSOON_TITLE2": "Stay tuned"
+    "COMINGSOON_TITLE2": "Stay tuned",
+    "COMINGSOON_SEC": "Seconds",
+    "COMINGSOON_MIN": "Minutes",
+    "COMINGSOON_HOUR": "Hours",
+    "COMINGSOON_DAY": "Days"
   },
   "de": {
     "NAVIGATION_HOME": "Home",
@@ -61,7 +65,11 @@
     "CALCULATOR_BROKE2": "Schau dir an was du getan hast!",
 
     "COMINGSOON_TITLE": "Bald verfügbar",
-    "COMINGSOON_TITLE2": "Bleib dran!"
+    "COMINGSOON_TITLE2": "Bleib dran!",
+    "COMINGSOON_SEC": "Sekunden",
+    "COMINGSOON_MIN": "Minuten",
+    "COMINGSOON_HOUR": "Stunden",
+    "COMINGSOON_DAY": "Tage"
   },
   "it": {
     "NAVIGATION_HOME": "Home",
@@ -93,7 +101,11 @@
     "CALCULATOR_BROKE2": "Guarda cosa hai fatto!",
 
     "COMINGSOON_TITLE": "Prossimamente",
-    "COMINGSOON_TITLE2": "Resta sintonizzato"
+    "COMINGSOON_TITLE2": "Resta sintonizzato",
+    "COMINGSOON_SEC": "Secondi",
+    "COMINGSOON_MIN": "Minuti",
+    "COMINGSOON_HOUR": "Ore",
+    "COMINGSOON_DAY": "Giorni"
   },
   "fr": {
     "NAVIGATION_HOME": "Home",
@@ -125,7 +137,11 @@
     "CALCULATOR_BROKE2": "Regardez ce que vous avez fait",
 
     "COMINGSOON_TITLE": "Bientôt disponible",
-    "COMINGSOON_TITLE2": "Restez à l'écoute"
+    "COMINGSOON_TITLE2": "Restez à l'écoute",
+    "COMINGSOON_SEC": "Seconds",
+    "COMINGSOON_MIN": "Minutes",
+    "COMINGSOON_HOUR": "Heures",
+    "COMINGSOON_DAY": "Journées"
   },
   "es": {
     "NAVIGATION_HOME": "Home",
@@ -157,6 +173,10 @@
     "CALCULATOR_BROKE2": "Mira lo que has hecho!",
 
     "COMINGSOON_TITLE": "Próximamente",
-    "COMINGSOON_TITLE2": "Estén atentos"
+    "COMINGSOON_TITLE2": "Estén atentos",
+    "COMINGSOON_SEC": "Segundos",
+    "COMINGSOON_MIN": "Minutos",
+    "COMINGSOON_HOUR": "Horas",
+    "COMINGSOON_DAY": "Días"
   }
 }

@@ -81,7 +81,7 @@
       } else { // If result is infinity, set off by dividing by zero
         resultNum = "Look at what you've done";
         el('#calculator').classList.add("broken"); // Break calculator
-        el('#reset').classList.add("show"); // And show reset button
+        el('#reset').classList.add("show"); // show reset button
       }
     }
 
@@ -89,7 +89,7 @@
     viewer.innerHTML = resultNum;
     equals.setAttribute("data-result", resultNum);
 
-    // Now reset oldNum & keep result
+    // reset oldNum & keep result
     oldNum = 0;
     theNum = resultNum;
 
