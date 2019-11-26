@@ -1,3 +1,19 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyAuDpYcfVe8jybKct4h19bDnemQygPIJs4",
+    authDomain: "flurinsapp.firebaseapp.com",
+    databaseURL: "https://flurinsapp.firebaseio.com",
+    projectId: "flurinsapp",
+    storageBucket: "flurinsapp.appspot.com",
+    messagingSenderId: "763375741818",
+    appId: "1:763375741818:web:9119a43e392784381244c3",
+    measurementId: "G-DS32FTN5NV"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+
+
 $(function() {
 
    $(".input input").focus(function() {
