@@ -7,10 +7,10 @@
   <link rel="stylesheet" href="style.css">
   <body>
     <div class="wrapper fadeInDown">
-      <div id="formContent">
+      <div id="worker" class="form-login type-signin">
         <!-- Tabs Titles -->
-        <h2 class="active"> Sign In </h2>
-        <h2 class="inactive underlineHover"><a href="/sign-up">Sign Up</a></h2>
+        <h2 class="" id="btnSignIn">Sign In</h2>
+        <h2 class="underlineHover" id="btnSignUp">Sign Up</h2>
 
         <!-- Icon -->
         <div class="fadeIn first">
@@ -18,23 +18,28 @@
         </div>
 
         <!-- Login Form -->
-        <form>
-          <input type="text" id="login" class="fadeIn second" name="login" placeholder="email">
-          <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
-          <input type="submit" class="fadeIn fourth" value="Log In">
+        <form id="formLogin" class="login">
+          <p id="txtError"></p>
+          <input type="email" id="txtEmail" class="fadeIn second" placeholder="Your email">
+          <input type="password" id="txtPassword" class="fadeIn third" placeholder="Your password">
+          <input type="submit" class="fadeIn fourth btn-signin" value="Login">
+          <input type="submit" class="fadeIn fourth btn-signup" value="Register">
         </form>
 
         <!-- Remind Passowrd -->
-        <div id="formFooter">
-          <a class="underlineHover" href="/resetpassword">Forgot Password?</a>
+        <div class="form-footer">
+          <a id="btnPasswordReset" class="underlineHover" href="#">Forgot Password?</a>
+          <a id="btnExitSignup" class="underlineHover" href="#">Already have an account?</a>
         </div>
 
       </div>
     </div>
-
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+    <!-- Scripts -->
     <script src="index.js" charset="utf-8"></script>
   </body>
 </html>

@@ -1,3 +1,17 @@
+var firebaseConfig = {
+  apiKey: "AIzaSyAuDpYcfVe8jybKct4h19bDnemQygPIJs4",
+  authDomain: "flurinsapp.firebaseapp.com",
+  databaseURL: "https://flurinsapp.firebaseio.com",
+  projectId: "flurinsapp",
+  storageBucket: "flurinsapp.appspot.com",
+  messagingSenderId: "763375741818",
+  appId: "1:763375741818:web:9119a43e392784381244c3",
+  measurementId: "G-DS32FTN5NV"
+};
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
+
 // Language support
 var userLang = navigator.language || navigator.userLanguage, languages = ["en", "de", "it", "fr", "es"],
 typedStrings = ["Flurin Hunger"];
@@ -85,3 +99,31 @@ function loadEvents() {
   updateMailString();
 }
 loadEvents();
+
+
+if(window.location.hash == '#login-success') {
+  window.history.pushState("", "", '/');
+  setTimeout(function() {
+    $('[data-scroll-nav="2"]').click();
+  }, 200);
+}
+
+var loggedIn = false;
+firebase.auth().onAuthStateChanged(function(user) {
+  if(user) {
+    loggedIn = true;
+    $('.nav-item.account').html('<a class="nav-link" href=""><i class="fas fa-sign-in-alt"></i> Logout</a>');
+  } else {
+    loggedIn = false;
+    $('.nav-item.account').html('<a class="nav-link" href=""><i class="fas fa-sign-in-alt"></i> Login</a>');
+  }
+});
+
+$('.nav-item.account').on('click', function(event) {
+  event.preventDefault();
+  if(loggedIn) {
+    firebase.auth().signOut();
+  } else {
+    window.location.href = `//${window.location.host}/login`;
+  }
+});
