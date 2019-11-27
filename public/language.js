@@ -1,4 +1,5 @@
 //resolve('key')
+//lang-key="key"
 var userLang = navigator.language || navigator.userLanguage,
 userLang = (["en", "de", "it", "fr", "es"].includes(userLang.split("-")[0]) ? userLang.split("-")[0] : "en"),
 translations = {
