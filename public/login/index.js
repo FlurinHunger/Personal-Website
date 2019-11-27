@@ -74,6 +74,7 @@ function gotoSignIn() {
   if(worker.hasClass('type-signin')) return;
   worker.addClass('type-signin');
   worker.removeClass('type-signup');
+  worker.removeClass('type-reset');
   btnSignUp.addClass('underlineHover')
   btnSignIn.removeClass('underlineHover')
   txtError.text('')
@@ -82,44 +83,18 @@ function gotoSignUp() {
   if(worker.hasClass('type-signup')) return;
   worker.addClass('type-signup');
   worker.removeClass('type-signin');
+  worker.removeClass('type-reset');
   btnSignIn.addClass('underlineHover')
   btnSignUp.removeClass('underlineHover')
   txtError.text('')
 }
 function gotoPasswordReset() {
-
+  if(worker.hasClass('type-reset')) return;
+  worker.addClass('type-reset');
+  worker.removeClass('type-signup');
+  worker.removeClass('type-signin');
+  txtError.text('')
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

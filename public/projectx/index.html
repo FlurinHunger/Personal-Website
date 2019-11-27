@@ -8,40 +8,42 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="/language.js" charset="utf-8"></script>
+
+
+    <!-- Page content -->
     <h1 lang-key="CALCULATOR_TITLE"></h1>
     <p class="warning" lang-key="CALCULATOR_WARNING"></p>
 
     <div id="calculator" class="calculator">
-
       <button id="clear" class="clear">C</button>
-
       <div id="viewer" class="viewer">0</div>
 
       <button class="num" data-num="7">7</button>
       <button class="num" data-num="8">8</button>
       <button class="num" data-num="9">9</button>
-      <button data-ops="plus" class="ops">+</button>
+      <script type="text/javascript" >document.write(`<button data-ops="${resolve('CALCULATOR_PLUS')}" class="ops">+</button>`)</script>
 
       <button class="num" data-num="4">4</button>
       <button class="num" data-num="5">5</button>
       <button class="num" data-num="6">6</button>
-      <button data-ops="minus" class="ops">-</button>
+      <script type="text/javascript" >document.write(`<button data-ops="${resolve('CALCULATOR_MINUS')}" class="ops">-</button>`)</script>
 
       <button class="num" data-num="1">1</button>
       <button class="num" data-num="2">2</button>
       <button class="num" data-num="3">3</button>
-      <button data-ops="times" class="ops">*</button>
+      <script type="text/javascript">document.write(`<button data-ops="${resolve('CALCULATOR_MULTIPLY')}" class="ops">×</button>`)</script>
 
       <button class="num" data-num="0">0</button>
       <button class="num" data-num=".">.</button>
       <button id="equals" class="equals" data-result="">=</button>
-      <button data-ops="divided by" class="ops">/</button>
+      <script type="text/javascript">document.write(`<button data-ops="${resolve('CALCULATOR_DIVIDE')}" class="ops">÷</button>`)</script>
     </div>
     <button id="reset" class="reset" lang-key="CALCULATOR_RESET"></button>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
-    <script src="/core.js" charset="utf-8"></script>
-    <script src="index.js" charset="utf-8"></script>
+    <script src="calculator.js" charset="utf-8"></script>
   </body>
 </html>

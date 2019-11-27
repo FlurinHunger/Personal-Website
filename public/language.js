@@ -1,4 +1,7 @@
-{
+//resolve('key')
+var userLang = navigator.language || navigator.userLanguage,
+userLang = (["en", "de", "it", "fr", "es"].includes(userLang.split("-")[0]) ? userLang.split("-")[0] : "en"),
+translations = {
   "en": {
     "NAVIGATION_HOME": "Home",
     "NAVIGATION_ABOUT": "About",
@@ -27,6 +30,10 @@
     "CALCULATOR_TITLE": "Calculator",
     "CALCULATOR_BROKE": "You broke it!",
     "CALCULATOR_BROKE2": "Look at what you've done",
+    "CALCULATOR_PLUS": "plus",
+    "CALCULATOR_MINUS": "minus",
+    "CALCULATOR_DIVIDE": "divided by",
+    "CALCULATOR_MULTIPLY": "times",
 
     "COMINGSOON_TITLE": "Coming Soon",
     "COMINGSOON_TITLE2": "Stay tuned",
@@ -61,8 +68,12 @@
     "CALCULATOR_WARNING": "Rechne nicht durch 0",
     "CALCULATOR_RESET": "Zurücksetzen?",
     "CALCULATOR_TITLE": "Rechner",
-    "CALCULATOR_BROKE": "Du hast es überlastet!",
+    "CALCULATOR_BROKE": "Es ist überlastet!",
     "CALCULATOR_BROKE2": "Schau dir an was du getan hast!",
+    "CALCULATOR_PLUS": "plus",
+    "CALCULATOR_MINUS": "minus",
+    "CALCULATOR_DIVIDE": "durch",
+    "CALCULATOR_MULTIPLY": "mal",
 
     "COMINGSOON_TITLE": "Bald verfügbar",
     "COMINGSOON_TITLE2": "Bleib dran!",
@@ -99,6 +110,10 @@
     "CALCULATOR_TITLE": "Calcolatrice",
     "CALCULATOR_BROKE": "L'hai rotto!",
     "CALCULATOR_BROKE2": "Guarda cosa hai fatto!",
+    "CALCULATOR_PLUS": "plus",
+    "CALCULATOR_MINUS": "minus",
+    "CALCULATOR_DIVIDE": "divided by",
+    "CALCULATOR_MULTIPLY": "times",
 
     "COMINGSOON_TITLE": "Prossimamente",
     "COMINGSOON_TITLE2": "Resta sintonizzato",
@@ -135,6 +150,10 @@
     "CALCULATOR_TITLE": "Calculatrice",
     "CALCULATOR_BROKE": "Tu as cassé!",
     "CALCULATOR_BROKE2": "Regardez ce que vous avez fait",
+    "CALCULATOR_PLUS": "plus",
+    "CALCULATOR_MINUS": "minus",
+    "CALCULATOR_DIVIDE": "divided by",
+    "CALCULATOR_MULTIPLY": "times",
 
     "COMINGSOON_TITLE": "Bientôt disponible",
     "COMINGSOON_TITLE2": "Restez à l'écoute",
@@ -171,6 +190,10 @@
     "CALCULATOR_TITLE": "Calculadora",
     "CALCULATOR_BROKE": "Lo rompiste!",
     "CALCULATOR_BROKE2": "Mira lo que has hecho!",
+    "CALCULATOR_PLUS": "plus",
+    "CALCULATOR_MINUS": "minus",
+    "CALCULATOR_DIVIDE": "divided by",
+    "CALCULATOR_MULTIPLY": "times",
 
     "COMINGSOON_TITLE": "Próximamente",
     "COMINGSOON_TITLE2": "Estén atentos",
@@ -179,4 +202,11 @@
     "COMINGSOON_HOUR": "Horas",
     "COMINGSOON_DAY": "Días"
   }
+};
+function resolve(key) { return translations[userLang][key]; }
+function translateDocument() {
+  $("[lang-key]").each(function(i, e) {
+    var element = $(e);
+    element.html( resolve(element.attr("lang-key")) );
+  });
 }

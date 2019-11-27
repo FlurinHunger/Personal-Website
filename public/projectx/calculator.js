@@ -53,19 +53,19 @@
 
     // Perform operation
     switch (operator) {
-      case "plus":
+      case resolve('CALCULATOR_PLUS'):
         resultNum = oldNum + theNum;
         break;
 
-      case "minus":
+      case resolve('CALCULATOR_MINUS'):
         resultNum = oldNum - theNum;
         break;
 
-      case "times":
+      case resolve('CALCULATOR_MULTIPLY'):
         resultNum = oldNum * theNum;
         break;
 
-      case "divided by":
+      case resolve('CALCULATOR_DIVIDE'):
         resultNum = oldNum / theNum;
         break;
 
@@ -77,9 +77,9 @@
     // If NaN or Infinity returned
     if (!isFinite(resultNum)) {
       if (isNaN(resultNum)) { // If result is not a number; set off by, eg, double-clicking operators
-        resultNum = "You broke it!";
+        resultNum = resolve("CALCULATOR_BROKE");
       } else { // If result is infinity, set off by dividing by zero
-        resultNum = "Look at what you've done";
+        resultNum = resolve("CALCULATOR_BROKE2");
         el('#calculator').classList.add("broken"); // Break calculator
         el('#reset').classList.add("show"); // show reset button
       }
@@ -127,3 +127,4 @@
   };
 
 }());
+translateDocument();
