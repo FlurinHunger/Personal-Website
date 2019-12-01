@@ -1,69 +1,49 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Coming Soon</title>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
 
-    <div class="container">
-        <h1 lang-key="COMINGSOON_TITLE"></h1> <!--Not working-->
-        <h2 lang-key="COMINGSOON_TITLE2"></h2>
-
-
-        <div class="count">
-          <div class="countd">
-            <span id="days">00</span>
-            <em lang-key="COMINGSOON_DAY">DAYS</em>
-          </div>
-
-          <div class="countd">
-            <span id="hours">00</span>
-            <em lang-key="COMINGSOON_HOUR">HOURS</em>
-          </div>
-
-          <div class="countd">
-            <span id="minutes">00</span>
-            <em lang-key="COMINGSOON_MIN">MINUTES</em>
-          </div>
-
-          <div class="countd">
-            <span id="seconds">00</span>
-            <em lang-key="COMINGSOON_SEC">SECONDS</em>
-          </div>
-        </div>
-    </div>
-
-
-    <script type="text/javascript">
-
-      var count = new Date("dec 1,2019 12:00:00").getTime();
-      var x = setInterval(function() {
-        var now = new Date().getTime();
-        var d = count - now;
-
-        var days = Math.floor(d/(1000*60*60*24));
-          var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
-          var minutes = Math.floor((d%(1000*60*60))/(1000*60));
-        var seconds = Math.floor((d%(1000*60))/1000);
-
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconds").innerHTML = seconds;
-
-        if(d <= 0){
-        clearInterval(x);
-        }
-      },1000);
-    </script>
-
-
-
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="/language.js" charset="utf-8"></script>
-    <script src="../core.js" charset="utf-8"></script>
+
+
+    <!-- Page content -->
+    <h1 lang-key="CALCULATOR_TITLE"></h1>
+    <p class="warning" lang-key="CALCULATOR_WARNING"></p>
+
+    <div id="calculator" class="calculator">
+      <button id="clear" class="clear">C</button>
+      <div id="viewer" class="viewer">0</div>
+
+      <button class="num" data-num="7">7</button>
+      <button class="num" data-num="8">8</button>
+      <button class="num" data-num="9">9</button>
+      <script type="text/javascript" >document.write(`<button data-ops="${resolve('CALCULATOR_PLUS')}" class="ops">+</button>`)</script>
+
+      <button class="num" data-num="4">4</button>
+      <button class="num" data-num="5">5</button>
+      <button class="num" data-num="6">6</button>
+      <script type="text/javascript" >document.write(`<button data-ops="${resolve('CALCULATOR_MINUS')}" class="ops">-</button>`)</script>
+
+      <button class="num" data-num="1">1</button>
+      <button class="num" data-num="2">2</button>
+      <button class="num" data-num="3">3</button>
+      <script type="text/javascript">document.write(`<button data-ops="${resolve('CALCULATOR_MULTIPLY')}" class="ops">×</button>`)</script>
+
+      <button class="num" data-num="0">0</button>
+      <button class="num" data-num=".">.</button>
+      <button id="equals" class="equals" data-result="">=</button>
+      <script type="text/javascript">document.write(`<button data-ops="${resolve('CALCULATOR_DIVIDE')}" class="ops">÷</button>`)</script>
+    </div>
+    <button id="reset" class="reset" lang-key="CALCULATOR_RESET"></button>
+
+    <script src="calculator.js" charset="utf-8"></script>
   </body>
 </html>
