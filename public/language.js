@@ -21,7 +21,7 @@ translations = {
     "PORTFOLIO_PROJECT1_NAME": "Project 2",
     "PORTFOLIO_PROJECT1_DESCRIPTION": "Coming soon",
     "PORTFOLIO_PROJECT2_NAME": "Project 1",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "Coming soon",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculator",
 
     "CONTACT_TITLE": "Contact me",
     "CONTACT_SEND": "Send message",
@@ -61,7 +61,7 @@ translations = {
     "PORTFOLIO_PROJECT1_NAME": "Projekt 2",
     "PORTFOLIO_PROJECT1_DESCRIPTION": "Bald verfügbar",
     "PORTFOLIO_PROJECT2_NAME": "Projekt 1",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "Bald verfügbar",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "Taschenrechner",
 
     "CONTACT_TITLE": "Kontaktiere mich",
     "CONTACT_SEND": "Nachricht senden",
@@ -101,7 +101,7 @@ translations = {
     "PORTFOLIO_PROJECT1_NAME": "Progetto 2",
     "PORTFOLIO_PROJECT1_DESCRIPTION": "Prossimamente",
     "PORTFOLIO_PROJECT2_NAME": "Progetto 1",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "Prossimamente",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "Calcolatrice",
 
     "CONTACT_TITLE": "Contattami",
     "CONTACT_SEND": "Invia messaggio",
@@ -141,7 +141,7 @@ translations = {
     "PORTFOLIO_PROJECT1_NAME": "Projet 2",
     "PORTFOLIO_PROJECT1_DESCRIPTION": "Bientôt disponible",
     "PORTFOLIO_PROJECT2_NAME": "Projet 1",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "Bientôt disponible",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculatrice",
 
     "CONTACT_TITLE": "Contactez moi",
     "CONTACT_SEND": "Envoyer le message",
@@ -181,7 +181,7 @@ translations = {
     "PORTFOLIO_PROJECT1_NAME": "Proyecto 2",
     "PORTFOLIO_PROJECT1_DESCRIPTION": "próximamente",
     "PORTFOLIO_PROJECT2_NAME": "Proyecto 1",
-    "PORTFOLIO_PROJECT2_DESCRIPTION": "próximamente",
+    "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculadora",
 
     "CONTACT_TITLE": "Contáctame",
     "CONTACT_SEND": "Enviar",
