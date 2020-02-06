@@ -19,7 +19,7 @@ translations = {
 
     "PORTFOLIO_TITLE": "My Portfolio",
     "PORTFOLIO_PROJECT1_NAME": "Project 2",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Game (Alpha)",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "Game (Beta)",
     "PORTFOLIO_PROJECT2_NAME": "Project 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculator",
     "PORTFOLIO_PROJECT3_NAME": "Project 3",
@@ -61,7 +61,7 @@ translations = {
 
     "PORTFOLIO_TITLE": "Mein Portfolio",
     "PORTFOLIO_PROJECT1_NAME": "Projekt 2",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Game (Alpha)",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "Game (Beta)",
     "PORTFOLIO_PROJECT2_NAME": "Projekt 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Taschenrechner",
     "PORTFOLIO_PROJECT3_NAME": "Projekt 3",
@@ -103,7 +103,7 @@ translations = {
 
     "PORTFOLIO_TITLE": "Il mio Portfolio",
     "PORTFOLIO_PROJECT1_NAME": "Progetto 2",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Gioco (Alpha)",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "Gioco (Beta)",
     "PORTFOLIO_PROJECT2_NAME": "Progetto 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calcolatrice",
     "PORTFOLIO_PROJECT3_NAME": "Progetto 3",
@@ -145,7 +145,7 @@ translations = {
 
     "PORTFOLIO_TITLE": "Mon portfolio",
     "PORTFOLIO_PROJECT1_NAME": "Projet 2",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Juego (Alpha)",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "Juego (Beta)",
     "PORTFOLIO_PROJECT2_NAME": "Projet 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculatrice",
     "PORTFOLIO_PROJECT3_NAME": "Projet 3",
@@ -187,7 +187,7 @@ translations = {
 
     "PORTFOLIO_TITLE": "My Portfolio",
     "PORTFOLIO_PROJECT1_NAME": "Proyecto 2",
-    "PORTFOLIO_PROJECT1_DESCRIPTION": "Juego (Alpha)",
+    "PORTFOLIO_PROJECT1_DESCRIPTION": "Juego (Beta)",
     "PORTFOLIO_PROJECT2_NAME": "Proyecto 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculadora",
     "PORTFOLIO_PROJECT3_NAME": "Proyecto 1",
