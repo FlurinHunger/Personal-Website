@@ -16,7 +16,7 @@ img {
 }
 .navbar.nav-scroll {
   background: #fff;
-  height: 62px;
+  min-height: 62px;
   box-shadow: 0px 5px 15px -5px #00000070;
 }
 .navbar.nav-scroll .logo {
