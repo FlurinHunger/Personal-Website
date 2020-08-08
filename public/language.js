@@ -23,7 +23,7 @@ translations = {
     "PORTFOLIO_PROJECT2_NAME": "Project 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculator",
     "PORTFOLIO_PROJECT3_NAME": "Project 3",
-    "PORTFOLIO_PROJECT3_DESCRIPTION": "Coming soon",
+    "PORTFOLIO_PROJECT3_DESCRIPTION": "Discord Bot",
 
     "CONTACT_TITLE": "Contact me",
     "CONTACT_SEND": "Send message",
@@ -65,7 +65,7 @@ translations = {
     "PORTFOLIO_PROJECT2_NAME": "Projekt 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Taschenrechner",
     "PORTFOLIO_PROJECT3_NAME": "Projekt 3",
-    "PORTFOLIO_PROJECT3_DESCRIPTION": "Bald verfügbar",
+    "PORTFOLIO_PROJECT3_DESCRIPTION": "Discord Bot",
 
     "CONTACT_TITLE": "Kontaktiere mich",
     "CONTACT_SEND": "Nachricht senden",
@@ -107,7 +107,7 @@ translations = {
     "PORTFOLIO_PROJECT2_NAME": "Progetto 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calcolatrice",
     "PORTFOLIO_PROJECT3_NAME": "Progetto 3",
-    "PORTFOLIO_PROJECT3_DESCRIPTION": "Prossimamente",
+    "PORTFOLIO_PROJECT3_DESCRIPTION": "Discord Bot",
 
     "CONTACT_TITLE": "Contattami",
     "CONTACT_SEND": "Invia messaggio",
@@ -149,7 +149,7 @@ translations = {
     "PORTFOLIO_PROJECT2_NAME": "Projet 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculatrice",
     "PORTFOLIO_PROJECT3_NAME": "Projet 3",
-    "PORTFOLIO_PROJECT3_DESCRIPTION": "Bientôt disponible",
+    "PORTFOLIO_PROJECT3_DESCRIPTION": "Discord Bot",
 
     "CONTACT_TITLE": "Contactez moi",
     "CONTACT_SEND": "Envoyer le message",
@@ -191,7 +191,7 @@ translations = {
     "PORTFOLIO_PROJECT2_NAME": "Proyecto 1",
     "PORTFOLIO_PROJECT2_DESCRIPTION": "Calculadora",
     "PORTFOLIO_PROJECT3_NAME": "Proyecto 1",
-    "PORTFOLIO_PROJECT3_DESCRIPTION": "próximamente",
+    "PORTFOLIO_PROJECT3_DESCRIPTION": "Discord Bot",
 
     "CONTACT_TITLE": "Contáctame",
     "CONTACT_SEND": "Enviar",
