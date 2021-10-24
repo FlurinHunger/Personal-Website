@@ -72,6 +72,10 @@ form {
   color: white !important;
 }
 
+.btn.blue {
+  color: inherit !important;
+}
+
 .btn.create:hover {
   opacity: 0.7;
 }
