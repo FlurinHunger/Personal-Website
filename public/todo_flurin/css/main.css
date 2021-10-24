@@ -61,7 +61,7 @@ form {
   background: 0;
   border: 0;
   padding: 0;
-  color: inherit;
+  color: black;
 }
 
 .btn.create {
@@ -69,6 +69,7 @@ form {
   font-weight: 900;
   margin-right: 0.25em;
   transition: opacity 250ms ease-in;
+  color: white !important;
 }
 
 .btn.create:hover {
