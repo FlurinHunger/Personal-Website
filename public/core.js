@@ -79,7 +79,7 @@ function loadEvents() {
   var mailString;
   function updateMailString() {
     mailString = '?subject=' + encodeURIComponent($('#form_subject').val()) + '&body=' + encodeURIComponent($('#form_message').val());
-    $('#mail-link').attr('href',  'mailto:hunger@flurin.ml' + mailString);
+    $('#mail-link').attr('href',  'mailto:contact@flurinhunger.ch' + mailString);
   }
   $( "#form_subject" ).focusout(function() { updateMailString(); });
   $( "#form_message" ).focusout(function() { updateMailString(); });
