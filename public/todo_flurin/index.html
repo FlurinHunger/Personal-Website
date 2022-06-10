@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Todo list</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700,900&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="main.css"/>
     <script defer src="script.js"></script>
   </head>
@@ -34,7 +31,12 @@
 
     <div class="todo-list" data-list-display-container>
       <div class="todo-header">
-        <h2 class="list-title" data-list-title>List</h2>
+        <h2 class="li
+        st-title" data-list-title id="list-title">Test_List</h2>
+        <a type="button" name="button" onclick="EditTitle()" style="cursor: pointer;"><i class="fa-solid fa-pen-to-square"></i></a>
+        <form action="" data-new-title-form>
+          <input type="text" name="popup" id="popup" class="hide" placeholder="Change Title" data-new-title-input>
+        </form>
         <p class="task-count" data-list-count>3 tasks remaining</p>
       </div>
 
@@ -71,5 +73,6 @@
         </label>
       </div>
     </template>
+    <script src="https://kit.fontawesome.com/427b806fb8.js" crossorigin="anonymous"></script>
   </body>
 </html>

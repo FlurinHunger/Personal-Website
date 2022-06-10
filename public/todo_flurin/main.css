@@ -166,7 +166,8 @@ form {
 }
 
 .list-title {
-  margin: 0 1em 0 0;
+  /*margin: 0 1em 0 0;*/
+  margin: 0 0 0 0;
 }
 
 .task-count {
@@ -276,4 +277,16 @@ form {
   left: 0;
   bottom: -35px;
   color: var(--clr-light);
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#popup {
+  min-height: 36px;
 }

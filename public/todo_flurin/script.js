@@ -10,6 +10,9 @@ const taskTemplate = document.getElementById('task-template')
 const newTaskForm = document.querySelector('[data-new-task-form]')
 const newTaskInput = document.querySelector('[data-new-task-input]')
 const clearCompleteTasksButton = document.querySelector('[data-clear-complete-tasks-button]')
+const newTitleInput = document.querySelector('[data-new-title-input]')
+const newTitleForm = document.querySelector('[data-new-title-form]')
+
 
 const LOCAL_STORAGE_LIST_KEY = 'task.lists'
 const LOCAL_STORAGE_SELECTED_LIST_ID_KEY = 'task.selectedListId'
@@ -136,6 +139,23 @@ function clearElement(element) {
   while (element.firstChild) {
     element.removeChild(element.firstChild)
   }
+}
+
+
+newTitleForm.addEventListener('submit', e => {
+  e.preventDefault()
+  const selectedList = lists.find(list => list.id === selectedListId)
+  if (newTitleInput.value == null || newTitleInput.value === '') return
+  selectedList.name = newTitleInput.value
+  newTitleInput.value = ""
+  saveAndRender()
+  document.getElementById("popup").classList.toggle("hide");
+  document.getElementById("popup").classList.toggle("show");
+})
+
+function EditTitle() {
+  document.getElementById("popup").classList.toggle("hide");
+  document.getElementById("popup").classList.toggle("show");
 }
 
 render()
