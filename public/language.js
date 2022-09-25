@@ -13,7 +13,7 @@ translations = {
     "TYPED_PROFESSION": "a Developer",
 
     "ABOUT_TITLE": "I'm a learning Developer",
-    "ABOUT_INTRO": "Hello, I am <b>Flurin Hunger</b>! I am 18 years old and I live in Zurich, Switzerland. I am currently doing my apprenticeship as a computer scientist at <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>. ",
+    "ABOUT_INTRO": "Hello, I am <b>Flurin Hunger</b>! I am £ years old and I live in Zurich, Switzerland. I am currently doing my apprenticeship as a computer scientist at <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>. ",
     "ABOUT_SKILLS": "My Skills",
     "ABOUT_SPOTIFY": "My Spotify playlist",
 
@@ -55,7 +55,7 @@ translations = {
     "TYPED_PROFESSION": "ein Entwickler",
 
     "ABOUT_TITLE": "Ich bin ein lernender Entwickler",
-    "ABOUT_INTRO": "Hallo, ich bin <b>Flurin Hunger</b>! Ich bin 18 Jahre alt und lebe in Zürich, Schweiz. Ich mache zurzeit eine Lehre, als Informatiker bei <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_INTRO": "Hallo, ich bin <b>Flurin Hunger</b>! Ich bin £ Jahre alt und lebe in Zürich, Schweiz. Ich mache zurzeit eine Lehre, als Informatiker bei <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
     "ABOUT_SKILLS": "Meine Fähigkeiten",
     "ABOUT_SPOTIFY": "Meine Spotify Playlist",
 
@@ -97,7 +97,7 @@ translations = {
     "TYPED_PROFESSION": "Sono uno Sviluppatore",
 
     "ABOUT_TITLE": "Sono uno sviluppatore di apprendimento",
-    "ABOUT_INTRO": "Ciao, sono <b>Flurin Hunger</b>! Ho 18 anni e vivo a Zurigo, in Svizzera. Attualmente sto facendo il mio apprendistato come informatico presso <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_INTRO": "Ciao, sono <b>Flurin Hunger</b>! Ho £ anni e vivo a Zurigo, in Svizzera. Attualmente sto facendo il mio apprendistato come informatico presso <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
     "ABOUT_SKILLS": "Le mie Abilità",
     "ABOUT_SPOTIFY": "La mia playlist di Spotify",
 
@@ -139,7 +139,7 @@ translations = {
     "TYPED_PROFESSION": "un Développeur",
 
     "ABOUT_TITLE": "Je suis un Développeur en apprentissage",
-    "ABOUT_INTRO": "Bonjour, je suis <b>Flurin Hunger</b>! J'ai 18 ans et j'habite à Zurich, en Suisse. Je suis actuellement en apprentissage en informatique à <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_INTRO": "Bonjour, je suis <b>Flurin Hunger</b>! J'ai £ ans et j'habite à Zurich, en Suisse. Je suis actuellement en apprentissage en informatique à <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
     "ABOUT_SKILLS": "Mes Compétences",
     "ABOUT_SPOTIFY": "Ma playlist Spotify",
 
@@ -181,7 +181,7 @@ translations = {
     "TYPED_PROFESSION": "Un Programador",
 
     "ABOUT_TITLE": "Soy un Programador aprendiz",
-    "ABOUT_INTRO": "Hola, soy <b>Flurin Hunger</b>! Tengo 18 años y yo vivo en Zurich, Suiza. Por el momento, haré una educación en la profesión informático en <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
+    "ABOUT_INTRO": "Hola, soy <b>Flurin Hunger</b>! Tengo £ años y yo vivo en Zurich, Suiza. Por el momento, haré una educación en la profesión informático en <a href=\"https://www.helsana.ch\" target=\"_blank\">Helsana</a>.",
     "ABOUT_SKILLS": "Mi Competencia",
     "ABOUT_SPOTIFY": "Mi lista de reproducción de Spotify",
 
