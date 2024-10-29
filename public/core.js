@@ -95,16 +95,3 @@ if(window.location.hash == '#login-success') {
   }, 200);
 }
 translateDocument();
-
-
-//change age
-const d = new Date();
-var age = 0;
-if(d.getMonth() < 6) {
-   age = d.getFullYear() - 2005;
- }
- else {
-    age=d.getFullYear() - 2004;
-  }
-let text = document.getElementById("myage").innerHTML;
-document.getElementById("myage").innerHTML = text.replace("£", age);
